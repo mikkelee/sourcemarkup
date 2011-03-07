@@ -5,7 +5,7 @@
 
 @implementation SMSource
 
-- (NSXMLElement *)XMLElement
+- (NSXMLElement *) XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"source"];
 	
@@ -28,18 +28,18 @@
 	return e;
 }
 
-- (NSSet *)keyPathsForValuesAffectingXmlElement
+- (NSSet *) keyPathsForValuesAffectingXMLElement
 {
 	NSLog(@"%s (line %d)", __FUNCTION__, __LINE__);
 	return [NSSet setWithObjects:@"id", @"places", @"sections", nil];
 }
 
-- (NSXMLDocument *)xmlDoc
+- (NSXMLDocument *) xmlDoc
 {
 	return [[NSXMLDocument alloc] initWithRootElement:[self XMLElement]];
 }
 
-- (NSSet *)keyPathsForValuesAffectingXmlDoc
+- (NSSet *) keyPathsForValuesAffectingXmlDoc
 {
 	NSLog(@"%s (line %d)", __FUNCTION__, __LINE__);
 	return [NSSet setWithObjects:@"xmlElement", @"xmlDoc.XMLData", nil];

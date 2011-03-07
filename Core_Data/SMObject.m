@@ -9,7 +9,7 @@
 	return @"INVALID";
 }
 
-- (void)awakeFromInsert
+- (void) awakeFromInsert
 {
 	[super awakeFromInsert];
 	

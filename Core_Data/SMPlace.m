@@ -7,7 +7,7 @@
 	return @"P";
 }
 
-- (NSXMLElement *)XMLElement
+- (NSXMLElement *) XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"place"];
 	
@@ -19,7 +19,7 @@
 	return e;
 }
 
-- (NSSet *)keyPathsForValuesAffectingXmlElement
+- (NSSet *) keyPathsForValuesAffectingXMLElement
 {
 	return [NSSet setWithObjects:@"id", nil];
 }

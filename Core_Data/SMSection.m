@@ -20,7 +20,7 @@
 	return NO;
 }
 
-- (NSXMLElement *)XMLElement
+- (NSXMLElement *) XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"section"];
 	
@@ -51,7 +51,7 @@
 	return e;
 }
 
-- (NSSet *)keyPathsForValuesAffectingXmlElement
+- (NSSet *) keyPathsForValuesAffectingXMLElement
 {
 	return [NSSet setWithObjects:@"id", @"date", @"textRanges", nil];
 }
@@ -66,7 +66,7 @@
 	[self setText:[s RTFFromRange:NSMakeRange(0, [s length]) documentAttributes:nil]];
 }
 
-- (NSSet *)keyPathsForValuesAffectingAttributedStringValue
+- (NSSet *) keyPathsForValuesAffectingAttributedStringValue
 {
 	return [NSSet setWithObjects:@"text", nil];
 }
@@ -76,7 +76,7 @@
 	return [[self attributedStringValue] string];
 }
 
-- (NSSet *)keyPathsForValuesAffectingStringValue
+- (NSSet *) keyPathsForValuesAffectingStringValue
 {
 	return [NSSet setWithObjects:@"text", nil];
 }

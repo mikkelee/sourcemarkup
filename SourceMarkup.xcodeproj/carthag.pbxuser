@@ -201,6 +201,20 @@
 			3E2BD67D132576CA003BF304 /* PBXTextBookmark */ = 3E2BD67D132576CA003BF304 /* PBXTextBookmark */;
 			3E2BD67E132576CA003BF304 /* PBXTextBookmark */ = 3E2BD67E132576CA003BF304 /* PBXTextBookmark */;
 			3E2BD67F132576CA003BF304 /* XDModelBookmark */ = 3E2BD67F132576CA003BF304 /* XDModelBookmark */;
+			3E2BD68013257827003BF304 /* PBXTextBookmark */ = 3E2BD68013257827003BF304 /* PBXTextBookmark */;
+			3E2BD68113257827003BF304 /* PBXTextBookmark */ = 3E2BD68113257827003BF304 /* PBXTextBookmark */;
+			3E2BD68213257827003BF304 /* PBXTextBookmark */ = 3E2BD68213257827003BF304 /* PBXTextBookmark */;
+			3E2BD68313257827003BF304 /* PBXTextBookmark */ = 3E2BD68313257827003BF304 /* PBXTextBookmark */;
+			3E2BD68413257827003BF304 /* PBXTextBookmark */ = 3E2BD68413257827003BF304 /* PBXTextBookmark */;
+			3E2BD68513257827003BF304 /* PBXTextBookmark */ = 3E2BD68513257827003BF304 /* PBXTextBookmark */;
+			3E2BD68613257827003BF304 /* PBXTextBookmark */ = 3E2BD68613257827003BF304 /* PBXTextBookmark */;
+			3E2BD68713257827003BF304 /* PBXTextBookmark */ = 3E2BD68713257827003BF304 /* PBXTextBookmark */;
+			3E2BD68813257827003BF304 /* PBXTextBookmark */ = 3E2BD68813257827003BF304 /* PBXTextBookmark */;
+			3E2BD68913257827003BF304 /* PBXTextBookmark */ = 3E2BD68913257827003BF304 /* PBXTextBookmark */;
+			3E2BD68A13257827003BF304 /* PBXTextBookmark */ = 3E2BD68A13257827003BF304 /* PBXTextBookmark */;
+			3E2BD68B13257827003BF304 /* PBXTextBookmark */ = 3E2BD68B13257827003BF304 /* PBXTextBookmark */;
+			3E2BD68C13257827003BF304 /* PBXTextBookmark */ = 3E2BD68C13257827003BF304 /* PBXTextBookmark */;
+			3E2BD68D13257827003BF304 /* XDModelBookmark */ = 3E2BD68D13257827003BF304 /* XDModelBookmark */;
 		};
 		sourceControlManager = 3E2BD3291323AF50003BF304 /* Source Control */;
 		userBuildSettings = {
@@ -273,16 +287,16 @@
 	};
 	3E2BD3931323BF32003BF304 /* SMIndividual.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {878, 541}}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 564}}";
 			sepNavSelRange = "{70, 0}";
 			sepNavVisRange = "{0, 76}";
 		};
 	};
 	3E2BD3941323BF33003BF304 /* SMIndividual.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {878, 611}}";
-			sepNavSelRange = "{94, 48}";
-			sepNavVisRange = "{25, 894}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 637}}";
+			sepNavSelRange = "{922, 0}";
+			sepNavVisRange = "{56, 945}";
 			sepNavWindowFrame = "{{130, 94}, {916, 824}}";
 		};
 	};
@@ -296,8 +310,8 @@
 	3E2BD3971323BF33003BF304 /* SMObject.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {878, 572}}";
-			sepNavSelRange = "{116, 54}";
-			sepNavVisRange = "{22, 1196}";
+			sepNavSelRange = "{125, 0}";
+			sepNavVisRange = "{0, 1219}";
 		};
 	};
 	3E2BD3991323BF33003BF304 /* SMPlace.h */ = {
@@ -309,9 +323,9 @@
 	};
 	3E2BD39A1323BF33003BF304 /* SMPlace.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {878, 589}}";
-			sepNavSelRange = "{80, 0}";
-			sepNavVisRange = "{0, 400}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 564}}";
+			sepNavSelRange = "{105, 0}";
+			sepNavVisRange = "{0, 402}";
 			sepNavWindowFrame = "{{38, 178}, {916, 824}}";
 		};
 	};
@@ -324,9 +338,9 @@
 	};
 	3E2BD39D1323BF34003BF304 /* SMPlaceReference.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {878, 541}}";
-			sepNavSelRange = "{101, 0}";
-			sepNavVisRange = "{0, 456}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 564}}";
+			sepNavSelRange = "{393, 0}";
+			sepNavVisRange = "{0, 473}";
 			sepNavWindowFrame = "{{61, 157}, {916, 824}}";
 		};
 	};
@@ -339,9 +353,9 @@
 	};
 	3E2BD3A01323BF34003BF304 /* SMRelationship.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {878, 589}}";
-			sepNavSelRange = "{58, 0}";
-			sepNavVisRange = "{0, 456}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 564}}";
+			sepNavSelRange = "{410, 0}";
+			sepNavVisRange = "{0, 473}";
 			sepNavWindowFrame = "{{84, 136}, {916, 824}}";
 		};
 	};
@@ -354,9 +368,9 @@
 	};
 	3E2BD3A31323BF34003BF304 /* SMSection.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {978, 1131}}";
-			sepNavSelRange = "{239, 0}";
-			sepNavVisRange = "{0, 1205}";
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 1170}}";
+			sepNavSelRange = "{1506, 0}";
+			sepNavVisRange = "{1209, 1064}";
 			sepNavWindowFrame = "{{107, 115}, {916, 824}}";
 		};
 	};
@@ -369,9 +383,9 @@
 	};
 	3E2BD3A61323BF35003BF304 /* SMTextRange.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {894, 676}}";
-			sepNavSelRange = "{949, 0}";
-			sepNavVisRange = "{53, 1350}";
+			sepNavIntBoundsRect = "{{0, 0}, {894, 715}}";
+			sepNavSelRange = "{106, 0}";
+			sepNavVisRange = "{97, 1531}";
 			sepNavWindowFrame = "{{153, 73}, {916, 824}}";
 		};
 	};
@@ -384,16 +398,16 @@
 	};
 	3E2BD3E21323C34D003BF304 /* SMSource.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {878, 541}}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 564}}";
 			sepNavSelRange = "{80, 13}";
 			sepNavVisRange = "{0, 109}";
 		};
 	};
 	3E2BD3E31323C34E003BF304 /* SMSource.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {878, 624}}";
-			sepNavSelRange = "{182, 0}";
-			sepNavVisRange = "{21, 902}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 637}}";
+			sepNavSelRange = "{619, 36}";
+			sepNavVisRange = "{65, 989}";
 			sepNavWindowFrame = "{{15, 199}, {916, 824}}";
 		};
 	};
@@ -484,7 +498,7 @@
 		fRef = 3E2BD39D1323BF34003BF304 /* SMPlaceReference.m */;
 		name = "SMPlaceReference.m: 16";
 		rLen = 0;
-		rLoc = 445;
+		rLoc = 462;
 		rType = 0;
 		vrLen = 413;
 		vrLoc = 0;
@@ -494,7 +508,7 @@
 		fRef = 3E2BD3A01323BF34003BF304 /* SMRelationship.m */;
 		name = "SMRelationship.m: 17";
 		rLen = 52;
-		rLoc = 396;
+		rLoc = 413;
 		rType = 0;
 		vrLen = 456;
 		vrLoc = 0;
@@ -504,7 +518,7 @@
 		fRef = 3E2BD3941323BF33003BF304 /* SMIndividual.m */;
 		name = "SMIndividual.m: 18";
 		rLen = 0;
-		rLoc = 971;
+		rLoc = 975;
 		rType = 0;
 		vrLen = 498;
 		vrLoc = 0;
@@ -534,7 +548,7 @@
 		fRef = 3E2BD39A1323BF33003BF304 /* SMPlace.m */;
 		name = "SMPlace.m: 19";
 		rLen = 0;
-		rLoc = 389;
+		rLoc = 391;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 0;
@@ -544,7 +558,7 @@
 		fRef = 3E2BD3A61323BF35003BF304 /* SMTextRange.m */;
 		name = "SMTextRange.m: 18";
 		rLen = 0;
-		rLoc = 1354;
+		rLoc = 1502;
 		rType = 0;
 		vrLen = 561;
 		vrLoc = 0;
@@ -554,7 +568,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 29";
 		rLen = 0;
-		rLoc = 1568;
+		rLoc = 1570;
 		rType = 0;
 		vrLen = 1160;
 		vrLoc = 0;
@@ -564,7 +578,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 49";
 		rLen = 0;
-		rLoc = 1050;
+		rLoc = 1054;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 21;
@@ -686,7 +700,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 39";
 		rLen = 0;
-		rLoc = 2264;
+		rLoc = 2268;
 		rType = 0;
 		vrLen = 357;
 		vrLoc = 640;
@@ -706,7 +720,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 39";
 		rLen = 0;
-		rLoc = 2264;
+		rLoc = 2268;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 0;
@@ -1140,7 +1154,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 49";
 		rLen = 0;
-		rLoc = 1050;
+		rLoc = 1054;
 		rType = 0;
 		vrLen = 1134;
 		vrLoc = 22;
@@ -1150,7 +1164,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 49";
 		rLen = 0;
-		rLoc = 1050;
+		rLoc = 1054;
 		rType = 0;
 		vrLen = 1134;
 		vrLoc = 22;
@@ -1323,7 +1337,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 52";
 		rLen = 0;
-		rLoc = 1050;
+		rLoc = 1054;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 0;
@@ -1496,7 +1510,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 52";
 		rLen = 0;
-		rLoc = 1050;
+		rLoc = 1054;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 0;
@@ -1733,7 +1747,7 @@
 		fRef = 3E2BD3941323BF33003BF304 /* SMIndividual.m */;
 		name = "SMIndividual.m: 18";
 		rLen = 0;
-		rLoc = 971;
+		rLoc = 975;
 		rType = 0;
 		vrLen = 498;
 		vrLoc = 0;
@@ -1763,7 +1777,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 31";
 		rLen = 29;
-		rLoc = 2004;
+		rLoc = 2007;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 0;
@@ -1773,7 +1787,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 31";
 		rLen = 29;
-		rLoc = 2004;
+		rLoc = 2007;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 0;
@@ -1948,7 +1962,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 31";
 		rLen = 29;
-		rLoc = 2004;
+		rLoc = 2007;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 0;
@@ -2123,7 +2137,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 31";
 		rLen = 0;
-		rLoc = 2040;
+		rLoc = 2043;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 0;
@@ -2328,7 +2342,7 @@
 		fRef = 3E2BD3971323BF33003BF304 /* SMObject.m */;
 		name = "SMObject.m: 8";
 		rLen = 0;
-		rLoc = 1218;
+		rLoc = 1219;
 		rType = 0;
 		vrLen = 75;
 		vrLoc = 0;
@@ -2368,7 +2382,7 @@
 		fRef = 3E2BD3941323BF33003BF304 /* SMIndividual.m */;
 		name = "SMIndividual.m: 8";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 421;
 		rType = 0;
 		vrLen = 799;
 		vrLoc = 0;
@@ -2378,7 +2392,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 31";
 		rLen = 0;
-		rLoc = 2040;
+		rLoc = 2043;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 0;
@@ -2388,7 +2402,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 27";
 		rLen = 0;
-		rLoc = 1441;
+		rLoc = 1442;
 		rType = 0;
 		vrLen = 1374;
 		vrLoc = 0;
@@ -2563,7 +2577,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 18";
 		rLen = 0;
-		rLoc = 748;
+		rLoc = 749;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 0;
@@ -2756,7 +2770,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 28";
 		rLen = 0;
-		rLoc = 1352;
+		rLoc = 1353;
 		rType = 0;
 		vrLen = 1514;
 		vrLoc = 0;
@@ -2766,7 +2780,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 28";
 		rLen = 0;
-		rLoc = 1352;
+		rLoc = 1353;
 		rType = 0;
 		vrLen = 1514;
 		vrLoc = 0;
@@ -2941,7 +2955,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 28";
 		rLen = 0;
-		rLoc = 1352;
+		rLoc = 1353;
 		rType = 0;
 		vrLen = 1514;
 		vrLoc = 0;
@@ -2958,7 +2972,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 10";
 		rLen = 0;
-		rLoc = 122;
+		rLoc = 123;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 0;
@@ -3133,7 +3147,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 10";
 		rLen = 0;
-		rLoc = 122;
+		rLoc = 123;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 0;
@@ -3308,7 +3322,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 10";
 		rLen = 0;
-		rLoc = 122;
+		rLoc = 123;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 0;
@@ -3483,7 +3497,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 22";
 		rLen = 0;
-		rLoc = 393;
+		rLoc = 394;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 0;
@@ -3493,7 +3507,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 33";
 		rLen = 19;
-		rLoc = 1364;
+		rLoc = 1365;
 		rType = 0;
 		vrLen = 1494;
 		vrLoc = 104;
@@ -3668,7 +3682,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 33";
 		rLen = 19;
-		rLoc = 1364;
+		rLoc = 1365;
 		rType = 0;
 		vrLen = 1494;
 		vrLoc = 104;
@@ -3843,7 +3857,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 36";
 		rLen = 19;
-		rLoc = 1364;
+		rLoc = 1365;
 		rType = 0;
 		vrLen = 1596;
 		vrLoc = 104;
@@ -4018,7 +4032,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 36";
 		rLen = 19;
-		rLoc = 1364;
+		rLoc = 1365;
 		rType = 0;
 		vrLen = 1598;
 		vrLoc = 104;
@@ -4213,7 +4227,7 @@
 		fRef = 3E2BD39D1323BF34003BF304 /* SMPlaceReference.m */;
 		name = "SMPlaceReference.m: 16";
 		rLen = 0;
-		rLoc = 445;
+		rLoc = 462;
 		rType = 0;
 		vrLen = 413;
 		vrLoc = 0;
@@ -4233,7 +4247,7 @@
 		fRef = 3E2BD3A61323BF35003BF304 /* SMTextRange.m */;
 		name = "SMTextRange.m: 3";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 478;
 		rType = 0;
 		vrLen = 561;
 		vrLoc = 0;
@@ -4253,7 +4267,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 8";
 		rLen = 0;
-		rLoc = 119;
+		rLoc = 120;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 0;
@@ -4303,7 +4317,7 @@
 		fRef = 3E2BD3971323BF33003BF304 /* SMObject.m */;
 		name = "SMObject.m: 41";
 		rLen = 0;
-		rLoc = 1210;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 0;
@@ -4641,7 +4655,7 @@
 		fRef = 3E2BD3971323BF33003BF304 /* SMObject.m */;
 		name = "SMObject.m: 31";
 		rLen = 0;
-		rLoc = 811;
+		rLoc = 812;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 0;
@@ -4814,7 +4828,7 @@
 		fRef = 3E2BD3971323BF33003BF304 /* SMObject.m */;
 		name = "SMObject.m: 24";
 		rLen = 0;
-		rLoc = 554;
+		rLoc = 555;
 		rType = 0;
 		vrLen = 1218;
 		vrLoc = 0;
@@ -4987,7 +5001,7 @@
 		fRef = 3E2BD3971323BF33003BF304 /* SMObject.m */;
 		name = "SMObject.m: 24";
 		rLen = 0;
-		rLoc = 554;
+		rLoc = 555;
 		rType = 0;
 		vrLen = 1218;
 		vrLoc = 0;
@@ -5007,7 +5021,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 12";
 		rLen = 0;
-		rLoc = 182;
+		rLoc = 183;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 21;
@@ -5180,7 +5194,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 12";
 		rLen = 0;
-		rLoc = 182;
+		rLoc = 183;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 21;
@@ -5190,7 +5204,7 @@
 		fRef = 3E2BD3941323BF33003BF304 /* SMIndividual.m */;
 		name = "SMIndividual.m: 14";
 		rLen = 0;
-		rLoc = 217;
+		rLoc = 218;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
@@ -5199,7 +5213,7 @@
 		isa = PBXTextBookmark;
 		fRef = 3E2BD3971323BF33003BF304 /* SMObject.m */;
 		name = "SMObject.m: 12";
-		rLen = 54;
+		rLen = 55;
 		rLoc = 116;
 		rType = 0;
 		vrLen = 1218;
@@ -5266,7 +5280,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 58";
 		rLen = 0;
-		rLoc = 1828;
+		rLoc = 1830;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 445;
@@ -5276,7 +5290,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 58";
 		rLen = 0;
-		rLoc = 1854;
+		rLoc = 1856;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 829;
@@ -5451,7 +5465,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 33";
 		rLen = 17;
-		rLoc = 1033;
+		rLoc = 1034;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 205;
@@ -5626,7 +5640,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 68";
 		rLen = 0;
-		rLoc = 2083;
+		rLoc = 2087;
 		rType = 0;
 		vrLen = 1070;
 		vrLoc = 940;
@@ -5860,7 +5874,7 @@
 		isa = PBXTextBookmark;
 		fRef = 3E2BD3971323BF33003BF304 /* SMObject.m */;
 		name = "SMObject.m: 12";
-		rLen = 54;
+		rLen = 55;
 		rLoc = 116;
 		rType = 0;
 		vrLen = 1196;
@@ -5871,7 +5885,7 @@
 		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
 		name = "SMSource.m: 12";
 		rLen = 0;
-		rLoc = 182;
+		rLoc = 183;
 		rType = 0;
 		vrLen = 902;
 		vrLoc = 21;
@@ -5881,7 +5895,7 @@
 		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
 		name = "SMSection.m: 68";
 		rLen = 0;
-		rLoc = 2083;
+		rLoc = 2087;
 		rType = 0;
 		vrLen = 1293;
 		vrLoc = 0;
@@ -5931,7 +5945,7 @@
 		fRef = 3E2BD3A61323BF35003BF304 /* SMTextRange.m */;
 		name = "SMTextRange.m: 43";
 		rLen = 0;
-		rLoc = 1480;
+		rLoc = 1628;
 		rType = 0;
 		vrLen = 1049;
 		vrLoc = 25;
@@ -6116,7 +6130,7 @@
 		fRef = 3E2BD3A61323BF35003BF304 /* SMTextRange.m */;
 		name = "SMTextRange.m: 31";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1097;
 		rType = 0;
 		vrLen = 1325;
 		vrLoc = 24;
@@ -6291,7 +6305,7 @@
 		fRef = 3E2BD3A61323BF35003BF304 /* SMTextRange.m */;
 		name = "SMTextRange.m: 31";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1097;
 		rType = 0;
 		vrLen = 1324;
 		vrLoc = 53;
@@ -6466,7 +6480,7 @@
 		fRef = 3E2BD3A61323BF35003BF304 /* SMTextRange.m */;
 		name = "SMTextRange.m: 31";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1097;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 53;
@@ -6512,6 +6526,301 @@
 		vrLoc = 0;
 	};
 	3E2BD67F132576CA003BF304 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 775BDEF0067A8BF0009058FE /* MyDocument.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 1;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					46.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {597, 220}}",
+						"{{602, 0}, {314, 220}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {916, 220}}",
+						"{{0, 225}, {916, 486}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {196, 220}}",
+						"{{201, 0}, {394, 220}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					131.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-102, -46}, {901, 471}}";
+			"xdesign model selected entities key" = (
+				"<XDPMEntity: 0x2027dbf40>{name=SMSection, package=}",
+			);
+			"xdesign model selected properties key" = (
+				"<XDPMAttribute: 0x20357f060>{name=text, type=(null)}",
+			);
+		};
+	};
+	3E2BD68013257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD54C1323F951003BF304 /* SMSectionController.m */;
+		name = "SMSectionController.m: 25";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	3E2BD68113257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3931323BF32003BF304 /* SMIndividual.h */;
+		name = "SMIndividual.h: 4";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 76;
+		vrLoc = 0;
+	};
+	3E2BD68213257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3E31323C34E003BF304 /* SMSource.m */;
+		name = "SMSource.m: 31";
+		rLen = 36;
+		rLoc = 619;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 65;
+	};
+	3E2BD68313257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3E21323C34D003BF304 /* SMSource.h */;
+		name = "SMSource.h: 5";
+		rLen = 13;
+		rLoc = 80;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	3E2BD68413257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3971323BF33003BF304 /* SMObject.m */;
+		name = "SMObject.m: 12";
+		rLen = 0;
+		rLoc = 125;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 0;
+	};
+	3E2BD68513257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3A21323BF34003BF304 /* SMSection.h */;
+		name = "SMSection.h: 5";
+		rLen = 47;
+		rLoc = 62;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	3E2BD68613257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3A31323BF34003BF304 /* SMSection.m */;
+		name = "SMSection.m: 54";
+		rLen = 0;
+		rLoc = 1506;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1209;
+	};
+	3E2BD68713257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD39A1323BF33003BF304 /* SMPlace.m */;
+		name = "SMPlace.m: 10";
+		rLen = 0;
+		rLoc = 105;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 0;
+	};
+	3E2BD68813257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3A61323BF35003BF304 /* SMTextRange.m */;
+		name = "SMTextRange.m: 10";
+		rLen = 0;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 1531;
+		vrLoc = 97;
+	};
+	3E2BD68913257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3941323BF33003BF304 /* SMIndividual.m */;
+		name = "SMIndividual.m: 43";
+		rLen = 0;
+		rLoc = 922;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 56;
+	};
+	3E2BD68A13257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD39D1323BF34003BF304 /* SMPlaceReference.m */;
+		name = "SMPlaceReference.m: 19";
+		rLen = 0;
+		rLoc = 393;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	3E2BD68B13257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3A01323BF34003BF304 /* SMRelationship.m */;
+		name = "SMRelationship.m: 9";
+		rLen = 17;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	3E2BD68C13257827003BF304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3E2BD3A01323BF34003BF304 /* SMRelationship.m */;
+		name = "SMRelationship.m: 15";
+		rLen = 0;
+		rLoc = 410;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	3E2BD68D13257827003BF304 /* XDModelBookmark */ = {
 		isa = XDModelBookmark;
 		fRef = 775BDEF0067A8BF0009058FE /* MyDocument.xcdatamodel */;
 		fallbackIsa = PBXBookmark;

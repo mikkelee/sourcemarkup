@@ -2,17 +2,17 @@
 
 @implementation SMRelationship
 
-- (NSXMLElement *)XMLElement
+- (NSXMLElement *) XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"relationship"];
 	
-	[e addAttribute:[NSXMLNode attributeWithName:@"id" stringValue:[[self toIndividual] id]]];
+	[e addAttribute:[NSXMLNode attributeWithName:@"id" stringValue:[[self toIndividual] valueForKey:@"id"]]];
 	[e addAttribute:[NSXMLNode attributeWithName:@"type" stringValue:[self type]]];
 	
 	return e;
 }
 
-- (NSSet *)keyPathsForValuesAffectingXmlElement
+- (NSSet *) keyPathsForValuesAffectingXMLElement
 {
 	return [NSSet setWithObjects:@"id", @"type", nil];
 }

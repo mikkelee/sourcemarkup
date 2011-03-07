@@ -7,7 +7,7 @@
 	return @"ERROR";
 }
 
-- (void)prepareForDeletion
+- (void) prepareForDeletion
 {
 	NSMutableAttributedString *str = [[[self section] attributedStringValue] mutableCopy];
 	
@@ -23,6 +23,8 @@
 	NSMutableAttributedString *str = [[[self section] attributedStringValue] mutableCopy];
 	
 	[str removeAttribute:[[self class] type] range:[self range]];
+	[str removeAttribute:NSUnderlineStyleAttributeName range:[self range]];
+	[str removeAttribute:NSForegroundColorAttributeName range:[self range]];
 	
 	[self setLocation:[NSNumber numberWithInt:r.location]];
 	[self setLength:[NSNumber numberWithInt:r.length]];

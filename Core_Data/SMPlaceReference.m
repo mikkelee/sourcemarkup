@@ -7,16 +7,16 @@
 	return @"Place";
 }
 
-- (NSXMLElement *)XMLElement
+- (NSXMLElement *) XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"place" stringValue:[self stringValue]];
 	
-	[e addAttribute:[NSXMLNode attributeWithName:@"id" stringValue:[[self place] id]]];
+	[e addAttribute:[NSXMLNode attributeWithName:@"id" stringValue:[[self place] valueForKey:@"id"]]];
 	
 	return e;
 }
 
-- (NSSet *)keyPathsForValuesAffectingXmlElement
+- (NSSet *) keyPathsForValuesAffectingXMLElement
 {
 	return [NSSet setWithObjects:@"id", @"place", @"stringValue", nil];
 }

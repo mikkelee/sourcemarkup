@@ -12,14 +12,14 @@
 	return @"Individual";
 }
 
-- (void)awakeFromInsert
+- (void) awakeFromInsert
 {
 	[super awakeFromInsert];
 	
 	[self setPrimitiveValue:@"present" forKey:@"role"];
 }
 
-+ (SMIndividual *)fromXmlElement:(NSXMLElement *)e inContext:(NSManagedObjectContext *)ctx
++ (SMIndividual *) fromXMLElement:(NSXMLElement *)e inContext:(NSManagedObjectContext *)ctx
 {
 	SMIndividual *this = [SMIndividual insertInManagedObjectContext:ctx];
 	
@@ -29,7 +29,7 @@
 	return this;
 }
 
-- (NSXMLElement *)XMLElement
+- (NSXMLElement *) XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"individual" stringValue:[self stringValue]];
 	
@@ -40,7 +40,7 @@
 	return e;
 }
 
-- (NSSet *)keyPathsForValuesAffectingXmlElement
+- (NSSet *) keyPathsForValuesAffectingXMLElement
 {
 	return [NSSet setWithObjects:@"id", @"stringValue", @"role", nil];
 }
