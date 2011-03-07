@@ -2,6 +2,11 @@
 
 @implementation SMPlace
 
++ (NSString *) idKey
+{
+	return @"P";
+}
+
 - (NSXMLElement *)XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"place"];

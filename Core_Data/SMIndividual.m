@@ -2,6 +2,23 @@
 
 @implementation SMIndividual
 
++ (NSString *) idKey
+{
+	return @"I";
+}
+
++ (NSString *) type
+{
+	return @"Individual";
+}
+
+- (void)awakeFromInsert
+{
+	[super awakeFromInsert];
+	
+	[self setPrimitiveValue:@"present" forKey:@"role"];
+}
+
 + (SMIndividual *)fromXmlElement:(NSXMLElement *)e inContext:(NSManagedObjectContext *)ctx
 {
 	SMIndividual *this = [SMIndividual insertInManagedObjectContext:ctx];

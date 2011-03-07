@@ -7,6 +7,7 @@
 
 #import "SMSectionController.h"
 
+#import "SMSection.h"
 #import "SMTextRange.h"
 #import "SMIndividual.h"
 #import "SMPlaceReference.h"
@@ -17,20 +18,22 @@
 {
 	NSManagedObjectContext *ctx = [self managedObjectContext];
 	
-	for (id rangeObj in [textView selectedRanges]) {
-		NSRange range = [rangeObj rangeValue];
-		SMTextRange *obj;
-		
-		if ([[sender title] isEqualToString:@"Individual"]) {
-			obj = [SMIndividual insertInManagedObjectContext:ctx];
-			[obj setValue:@"present" forKey:@"role"];
-		} else if ([[sender title] isEqualToString:@"Place"]) {
-			obj = [SMPlaceReference insertInManagedObjectContext:ctx];
-		}
-		
-		[obj setSection:[[self selectedObjects] lastObject]];
-		[obj setRange:range];
+	SMTextRange *obj;
+	SMSection *sec = [[self selectedObjects] lastObject];
+	
+	if ([sec hasTextRangeOverlappingRange:[textView selectedRange]]) {
+		[[NSAlert alertWithError:@"Text ranges may not overlap."] runModal];
+		return;
 	}
+	
+	if ([[sender title] isEqualToString:@"Individual"]) {
+		obj = [SMIndividual insertInManagedObjectContext:ctx];
+	} else if ([[sender title] isEqualToString:@"Place"]) {
+		obj = [SMPlaceReference insertInManagedObjectContext:ctx];
+	}
+	
+	[obj setSection:sec];
+	[obj setRange:[textView selectedRange]];
 }
 
 @end

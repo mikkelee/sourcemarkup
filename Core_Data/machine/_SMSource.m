@@ -29,13 +29,6 @@
 
 
 
-@dynamic filename;
-
-
-
-
-
-
 @dynamic notes;
 
 
@@ -44,6 +37,13 @@
 
 
 @dynamic image;
+
+
+
+
+
+
+@dynamic filename;
 
 
 

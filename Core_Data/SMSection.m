@@ -4,6 +4,22 @@
 
 @implementation SMSection
 
++ (NSString *) idKey
+{
+	return @"S";
+}
+
+-(BOOL) hasTextRangeOverlappingRange:(NSRange)r
+{
+	for (SMTextRange *textRange in [self orderedRanges]) {
+		if (NO) { //TODO
+			return YES;
+		}
+	}
+	
+	return NO;
+}
+
 - (NSXMLElement *)XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"section"];
@@ -14,8 +30,6 @@
 	NSString *stringVal = [self stringValue];
 	NSArray *ranges = [self orderedRanges];
 	
-	NSLog(@"ranges: %@", ranges);
-	
 	[e addChild:[NSXMLNode textWithStringValue:[stringVal substringWithRange:NSMakeRange(0, [[ranges objectAtIndex:0] range].location)]]];
 	
 	for (int idx = 0; idx < [ranges count]-1; idx++) {
@@ -25,9 +39,8 @@
 		[e addChild:[thisRange XMLElement]];
 		
 		//text between thisRange and followingRange:
-		int loc = [thisRange range].location + [thisRange range].length;
+		int loc = NSMaxRange([thisRange range]);
 		int len = [followingRange range].location - loc;
-		NSLog(@"%d + %d", loc, len);
 		[e addChild:[NSXMLNode textWithStringValue:[stringVal substringWithRange:NSMakeRange(loc, len)]]];
 	}
 	
@@ -42,9 +55,30 @@
 {
 	return [NSSet setWithObjects:@"id", @"date", @"textRanges", nil];
 }
+
+-(NSAttributedString *) attributedStringValue
+{
+	return [[NSAttributedString alloc] initWithRTF:[self text] documentAttributes:nil];
+}
+
+-(void) setAttributedStringValue:(NSAttributedString *)s
+{
+	[self setText:[s RTFFromRange:NSMakeRange(0, [s length]) documentAttributes:nil]];
+}
+
+- (NSSet *)keyPathsForValuesAffectingAttributedStringValue
+{
+	return [NSSet setWithObjects:@"text", nil];
+}
+
 -(NSString *) stringValue
 {
-	return [[[NSAttributedString alloc] initWithRTF:[self text] documentAttributes:NULL] string];
+	return [[self attributedStringValue] string];
+}
+
+- (NSSet *)keyPathsForValuesAffectingStringValue
+{
+	return [NSSet setWithObjects:@"text", nil];
 }
 
 -(NSArray *) orderedRanges

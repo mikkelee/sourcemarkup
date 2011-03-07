@@ -2,7 +2,7 @@
 // Make changes to SMRelationship.h instead.
 
 #import <CoreData/CoreData.h>
-#import "SMObject.h"
+
 
 @class SMIndividual;
 @class SMIndividual;
@@ -12,7 +12,7 @@
 @interface SMRelationshipID : NSManagedObjectID {}
 @end
 
-@interface _SMRelationship : SMObject {}
+@interface _SMRelationship : NSManagedObject {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;

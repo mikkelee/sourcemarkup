@@ -9,9 +9,6 @@
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"source"];
 	
-	[e addAttribute:[NSXMLNode attributeWithName:@"id" stringValue:[self id]]];
-	//[e addChild:[NSXMLNode elementWithName:@"reference" stringValue:];
-	
 	NSXMLElement *sectionElements = [NSXMLNode elementWithName:@"sections"];
 	
 	for (SMSection *section in [self sections]) {

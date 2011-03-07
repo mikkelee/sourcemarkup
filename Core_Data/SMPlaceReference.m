@@ -2,6 +2,11 @@
 
 @implementation SMPlaceReference
 
++ (NSString *) type
+{
+	return @"Place";
+}
+
 - (NSXMLElement *)XMLElement
 {
 	NSXMLElement *e = [NSXMLNode elementWithName:@"place" stringValue:[self stringValue]];
