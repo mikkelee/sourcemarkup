@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="source.css" type="text/css"?>
+<source id="S1">
+	<reference>
+		<name>Karby Sogn - opslag ##</name>
+		<type>parish register</type>
+		<class>primary</class>
+		<reliability>good</reliability>
+		<filename>data_kirkeboeger_C138_A_001_K05-48-A.Tif</filename>		<url>http://www.sa.dk/ao</url>
+	</reference>
+	<places>
+		<place id="P1" type="town">
+			<name>Karb&#xFF;</name>
+			<geolocation latitude="56.753889" longitude="8.559722"/>
+		</place>
+		<place id="P2" type="house" containedin="P1">
+			<name>Præstegaarden</name>
+			<geolocation latitude="56.753889" longitude="8.559722"/>
+		</place>
+	</places>
+	<sections>
+		<section id="E1"><!-- not transcribed --></section>
+		<!--
+			individual ids are unique to a section, can be crossreferenced (see I1 below)
+			dates are GEDCOM format (incl ranges/periods/etc)
+			section[individuals] is a list of the primary/"proband" individuals in this section
+		-->
+		<section id="E2" individuals="I1">
+			<date date="2 AUG 1789" calendar="Gregorian" event="baptism">Dom: 8p Trinit:</date>
+			<individual id="I2" role="father">
+				<residence id="P1"/>
+				<relationship type="spouse" individual="I3"/>
+				Niels Larsen Bak
+			</individual>
+			og
+			<individual id="I3" role="mother">
+				<residence id="P1"/>
+				<relationship type="spouse" individual="I2"/>
+				Kiersten Madsdatter
+			</individual> 
+			<br/>
+			af
+			<place id="P1">
+				Karb&#xFF;
+			</place>
+			derris barn kaldet
+			<individual id="I1" role="primary">
+				<residence id="P1"/>
+				<crossreference text="S2" section="E5" individual="I6"/><!-- example xref -->
+				<emphasis style="text-decoration: underline">Mads</emphasis>
+			</individual>
+			baarit af
+			<individual id="I4" role="carried proband">
+				<residence id="P2"/>
+				Jomfr: Ane <br/>Kierstine Riis
+			</individual> 
+			af
+			<place id="P2">
+				Pr&#xE6;stegaarden
+			</place>,
+			faddere
+			<individual id="I5" role="witness">Mads Jensen M&#xF8;ller</individual>
+			<br/>
+			<individual id="I6" role="witness">Stephan Stephansen M&#xF8;ller</individual>
+			<individual id="I7" role="witness">Lars Nielsen Bak</individual>,
+			<individual id="I8" role="witness">Svenning <br/>Dahl</individual>
+			<individual id="I9" role="witness">Christen Michelsen Pind</individual>,
+			<individual id="I10" role="witness">Niels Larsen</individual>
+			<individual id="I11" role="witness">Anders Chri<br/>stensen</individual>
+			<individual id="I12" role="witness">Anne</individual>
+			og
+			<individual id="I13" role="witness">Maren Christensdatter</individual>, 
+			<individual id="I14" role="witness">Marie Christens<br/>datter</individual>
+			<individual id="I15" role="witness">Karen Christensdatter</individual>
+		</section>
+		<section id="E3"><!-- not transcribed --></section>
+		<section id="E4"><!-- not transcribed --></section>
+		<section id="E5"><!-- not transcribed --></section>
+		<section id="E6"><!-- not transcribed --></section>
+	</sections>
+</source>

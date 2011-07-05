@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="source.css" type="text/css"?>
+<source id="S1">
+	<reference>
+		<name>Eysturoyar Prestagjald 1816 til 1832 - Fødd - 60</name>
+		<type>parish register</type>
+		<class>primary</class>
+		<reliability>good</reliability>
+		<filename>60.jpg</filename>
+		<url>http://history.fo/admin/webpage/popup.php?content_img_serie_id=12927</url>
+	</reference>
+	<places>
+		<place id="P1" type="church" containedin="P2">
+			<name>Nk.</name>
+			<geolocation latitude="62.244444" longitude="-6.814444"/>
+		</place>
+		<place id="P2" type="town">
+			<name>Fuglefjord</name>
+			<geolocation latitude="62.244444" longitude="-6.814444"/>
+		</place>
+	</places>
+	<sections>
+		<section id="E1"><!-- not transcribed --></section>
+		<section id="E2"><!-- not transcribed --></section>
+		<section id="E3"><!-- not transcribed --></section>
+		<section id="E4"><!-- not transcribed --></section>
+		<section id="E5">
+			<cell>
+				10.
+			</cell>
+			<cell>
+				<date date="15 FEB 1821" calendar="Gregorian" event="birth">D. 15da<br/>Febr.<br/>1821</date>
+			</cell>
+			<cell>
+				<individual id="I1" role="primary">
+					<residence id="P1"/>
+					Cicilie Malena<br/> Poulsdttr
+				</individual>
+			</cell>
+			<cell>
+				<date date="20 FEB 1821" calendar="Gregorian" event="baptism">D. 20da<br/>Febr.<br/></date>
+				i
+				<place id="P1">Nk.</place>
+			</cell>
+			<cell>
+				<individual id="I2" role="father">
+					<residence id="P1"/>
+					<relationship type="spouse" individual="I3"/>
+					Poul Joensen
+				</individual>
+				<br/>og<br/>
+				<individual id="I3" role="mother">
+					<residence id="P1"/>
+					<relationship type="spouse" individual="I3"/>
+					Ellen Cathrine Pes<br/>dttr
+				</individual>
+				af 
+				<place id="P2">
+					Fuglefjord
+				</place>
+			</cell>
+			<cell>
+				<individual id="I4" role="witness"><residence id="P1"/>Ole Johannessen</individual>,
+				<br/>
+				<individual id="I5" role="witness"><residence id="P1"/>Jacob Pedersen</individual>
+				og<br/>
+				<individual id="I6" role="witness"><residence id="P1"/>Joen Hansen</individual>,
+				<individual id="I7" role="witness"><residence id="P1"/>Bir=<br/>the Sophie Joensdttr</individual>
+				og<br/>
+				<individual id="I8" role="witness"><residence id="P1"/>Susanne Elisadttr</individual>,
+				<br/>
+				alle af <place id="P2">Fuglefjord</place>
+			</cell>
+			<cell>
+				<reference>Fol. 217.</reference>
+			</cell>
+		</section>
+		<section id="E6"><!-- not transcribed --></section>
+		<section id="E7"><!-- not transcribed --></section>
+	</sections>
+</source>
+
+
+

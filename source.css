@@ -1,0 +1,32 @@
+source { display: block }
+
+reference { display: block }
+places { display: block }
+sections { display: block }
+
+section {
+	display: block;
+	border: solid 1px black;
+}
+cell {
+	display: block;
+	border: solid 1px black;
+}
+
+name {
+	color: orange;
+}
+individual {
+	color: green;
+	border: dotted 1px black;
+}
+date {
+	color: red;
+}
+place {
+	color: blue;
+}
+
+br {
+	display: block;
+}
