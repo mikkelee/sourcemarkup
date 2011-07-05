@@ -22,7 +22,7 @@
 	SMSection *sec = [[self selectedObjects] lastObject];
 	
 	if ([sec hasTextRangeOverlappingRange:[textView selectedRange]]) {
-		[[NSAlert alertWithError:@"Text ranges may not overlap."] runModal];
+		[[NSAlert alertWithMessageText:@"Text ranges may not overlap." defaultButton:nil alternateButton:nil otherButton:nil informativeTextWithFormat:@"Text ranges may not overlap."] runModal];
 		return;
 	}
 	

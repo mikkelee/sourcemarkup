@@ -6,13 +6,13 @@
 //
 
 #import "SMSourceController.h"
-#import "SMSource.h"
+#import "SMObject.h"
 
 @implementation SMSourceController
 
 - (IBAction)logXML:(id)sender
 {
-	NSLog(@"Test: %@", [[[self selectedObjects] lastObject] XMLElement]);
+	NSLog(@"Test: %@", [(SMObject*)[[self selectedObjects] lastObject] XMLElement]);
 }
 
 @end
